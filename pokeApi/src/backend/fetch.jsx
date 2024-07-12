@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import '../styles/index.css'
 const Peticion = () => {
   const [pokemones, setPokemones] = useState([]);
 
@@ -44,10 +44,28 @@ const Peticion = () => {
   return (
     <>
       {pokemones.map((element, index) => (
-        <div key={index}>
+        <div key={index} className="cart-style">
+            <h1>order: {element.order}</h1>
           <h1>{element.name}</h1>
+          <img src={element.sprites.back_default} alt={element.name} />
           <p>Height: {element.height}</p>
           <p>Weight: {element.weight}</p>
+          <h1>types</h1>
+          <div className="cart-types">
+            {element.types.map((el,index)=>{
+                return(
+                <p key={index}>{el.type.name}</p>
+                )
+            })}
+          </div>
+          <h1>Habilities</h1>
+          <div className="cart-habilities">
+            {element.abilities.map((el,index)=>{
+                return(
+                <p key={index}>{el.ability.name}</p>
+                )
+            })}
+          </div>
         </div>
       ))}
     </>
