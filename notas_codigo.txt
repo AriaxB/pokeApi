@@ -1,0 +1,33 @@
+--EXPLICACION CODIGO---
+TECNOLOGIAS: vite,react,js HTML,css
+versionamiento:git y github
+despliegue:vercel
+
+que se hizo:
+se realizo un miniproyecto para poder consumir la api de pokemon siguiendo los parametros y puntos establecidos en el repositorio de a prueba tecnica.
+
+como se hizo:
+utilice archivos jsx para poder contruir el proyecto. Cree dos carpetas donde:
+Backend: guardo el archivo con la funcion donde se consume la api y se mapean los datos suministrados por la api, se hizo uso del mecanimso fetch para poder hacer la peticion http (get), funciones asincronas, manejo de errores con try-catch, uso de bucles para recorrer arreglos, hooks para poder cambiar los valores de un arreglo el cual guardaba los resultados de la api.
+
+vista: para el mapeo de datos se uso html y css dandole un estilo dinamico y claro para mostrar las cartas de los pokemone Tmabien se usaron eventos de click para poder dar mas dinamismo y mejorar la experiencia de usuario.
+
+versionamiento: se utilizo git y github para poder realizar cambios en el proyecto, corregir bugs o errores u optimizar el codigo haciendolo mas limpio y claro posible
+
+link del repositorio: https://github.com/AriaxB/pokeApi
+
+despliegue: se uso vercel como plataforma para hostear el proyecto dado su facil manejo y que es interoperable con el repositorio github fue la mejor opcion en mi opinion
+
+observaciones: durante el desarrollo del proyecto tuve varias dificultades muchas veces el codigo no hacia lo que esperaba pero mediante investigacion y el uso de herraientas externas se pudieron resolver.
+
+nombre: Jhon Nicolas Barrios Arias
+c.c: 1013259607
+correo : jnba0529@gmail.com
+cel: 3202735505
+
+
+
+
+
+
+
