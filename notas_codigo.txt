@@ -18,6 +18,7 @@ link del repositorio: https://github.com/AriaxB/pokeApi
 
 despliegue: se uso vercel como plataforma para hostear el proyecto dado su facil manejo y que es interoperable con el repositorio github fue la mejor opcion en mi opinion
 
+link: https://poke-api-lg3v.vercel.app
 observaciones: durante el desarrollo del proyecto tuve varias dificultades muchas veces el codigo no hacia lo que esperaba pero mediante investigacion y el uso de herraientas externas se pudieron resolver.
 
 nombre: Jhon Nicolas Barrios Arias
