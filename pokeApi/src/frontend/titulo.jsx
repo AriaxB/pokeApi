@@ -4,7 +4,7 @@ import '../styles/index.css'
 export default function Title(){
     return(
         <div className="title-container">
-            <img src="../../public/POKEMON.png" alt="pokemon" />
+            <img src="../assets/POKEMON.png" alt="pokemon" />
         </div>
     )
 }
